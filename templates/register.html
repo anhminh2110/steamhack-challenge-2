@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>SpreadED | Register</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="../static/style/style1.css">
+   </head>
+
+   <body>
+      <div id="container">
+         <div id="big-header">
+            <a href="/">SpreadED</a>
+         </div>
+         <div id="register-box">
+            <h2 class="word">
+               <form action="/register" method="post">
+                  <div class="msg">{{ msg }}</div>
+                  <ul>
+                     <li>
+                        <h1>Đăng kí tài khoản mới</h1>
+                     </li>
+                     <!-- Ho va ten -->
+                     <li class="input">
+                        <div class="input-box">
+                           <div class="header-input-type name-header">
+                              <p>Họ và tên</p>
+                           </div>
+                           <div id="name-box">
+                              <input id="username" name="username" type="text" placeholder="Enter Your Username" class="textbox"/>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Gioi tinh -->
+                     <li class="input">
+                        <label id="sexes-options" for="sexs">Giới tính</label>
+
+                        <select id="sex-select">
+                           <option value="male">Nam</option>
+                           <option value="female">Nữ</option>
+                        </select>
+                     </li>
+                     <!-- Date of birth-->
+                     <li class="input">
+                        <label id="dob-options" for="dob">Ngày/tháng/năm sinh</label>
+
+                        <select id="date-select">
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3"> 3 </option>
+                           <option value= "4" > 4 </option>
+                           <option value="5"> 5 </option>
+                           <option value= "6 "> 6 </option>
+                           <option value= "7 "> 7 </option>
+                           <option value= "8 "> 8 </option>
+                           <option value= "9 "> 9 </option>
+                           <option value= "10" > 10 </option>
+                           <option value= "11" > 11 </option>
+                           <option value= "12" > 12 </option>
+                           <option value= "13" > 13 </option>
+                           <option value= "14" > 14 </option>
+                           <option value= "15" > 15 </option>
+                           <option value= "16" > 16 </option>
+                           <option value= "17" > 17 </option>
+                           <option value= "18" > 18 </option>
+                           <option value= "19" > 19 </option>
+                           <option value= "20" > 20 </option>
+                           <option value= "21" > 21 </option>
+                           <option value= "22" > 22 </option>
+                           <option value= "23" > 23 </option>
+                           <option value= "24" > 24 </option>
+                           <option value= "25" > 25 </option>
+                           <option value= "26" > 26 </option>
+                           <option value= "27" > 27 </option>
+                           <option value= "28" > 28 </option>
+                           <option value= "29" > 29 </option>
+                           <option value= "30" > 30 </option>
+                           <option value=  "31" > 31 </option>
+                        </select>
+
+                        <select id="month-select">
+                            <option value="jan">Tháng 1</option>
+                            <option value="feb">Tháng 2</option>
+                            <option value="mar">Tháng 3</option>
+                            <option value="apr">Tháng 4</option>
+                            <option value="may">Tháng 5</option>
+                            <option value="jun">Tháng 6</option>
+                            <option value="jul">Tháng 7</option>
+                            <option value="aug">Tháng 8</option>
+                            <option value="sep">Tháng 9</option>
+                            <option value="oct">Tháng 10</option>
+                            <option value="nov">Tháng 11</option>
+                            <option value="dec">Tháng 12</option>
+                         </select>
+
+                         <div id="year-box" style="width: 75px; height: 30px">
+                            <input id="year" name="year" type="year" class="small-textbox" style="width:100px; height:30px; background-color: rgb(245,245,245); border-radius:10px;"/>
+                         </div>
+                     </li>
+                     <!-- Mat khau -->
+                     <li class="input"> 
+                        <div class="input-box"> 
+                           <div class="header-input-type pass-header">
+                              <p>Mật khẩu</p>
+                           </div>
+                           <div id="pass-box">
+                              <input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox"/>
+                           </div>  
+                        </div>
+                     </li>
+                     <!-- Email -->
+                     <li class="input">
+                        <div class="input-box">
+                           <div class="header-input-type email-header">
+                              <p>Email</p>
+                           </div>
+                           <div id="email-box">   
+                              <input id="email" name="email" type="text" class="textbox"/>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- phone number -->
+                     <li class="input">
+                        <div class="input-box">
+                           <div class="header-input-type phone-num-header">
+                              <p>SĐT</p>
+                           </div>
+                           <div id="phone-num-box">   
+                              <input id="phone-num" name="phone-num" type="text" class="textbox"/>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Dia chi -->
+                     <li class="input">
+                        <div class="input-box">
+                           <div class="header-input-type addr-header">
+                              <p>Địa chỉ</p>
+                           </div>
+                           <div id="addr-box">   
+                              <input id="addr" name="addr" type="text" class="textbox"/>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Button -->
+                     <li>   
+                        <input type="submit" class="btn" value="Sign Up"></br>
+                     </li>
+                  </ul>
+               </form>
+            </h2>
+         </div>
+         <div id="logo"></div>
+      </div>
+   </body>
+</html>

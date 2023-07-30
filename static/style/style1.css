@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    height: 657px;
+
+    background-image: url("../img/icon.png");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: 58% 85%;
+    background-position: center;
+
+    position: relative;
+}
+#container>#big-header {
+    width: 100%;
+    height: 50px;
+}
+
+#container>#big-header a{
+    font-size: 45px;
+    color: black;
+
+    position: absolute;
+}
+
+#container>#big-header a:hover{
+    color: purple;
+}
+
+#container>#logo {
+    width: 88px;
+    height: 91px;
+    background-image: url('../img/icon.png');
+    background-size: 88px 91px;
+
+    position: relative;
+    left: 1045px;
+    bottom: 10px;
+}
+#container>#register-box {
+    position: absolute;
+    top: 80px;
+
+    border: 1px solid black;
+    border-radius: 0px;
+    border-radius: 25px;
+    width: 65%;
+    height: 500px;
+    margin-left: 17.5%;
+
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.word ul {
+    list-style-type: none;
+    display: list-item;
+}
+
+.word h1 {
+    padding-bottom: 12px;
+}
+
+.word ul li h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    height: 62px;
+
+    position: relative;
+}
+
+.input .input-box {
+    position: absolute;
+    left: 0px;
+}
+
+.input .input-box {
+    position: absolute;
+    right: 0px;
+}
+
+.input .input-box p {
+    color: black;
+}
+
+.input #sexes-options, .input #dob-options {
+    color: black; 
+    font-size: 20px;
+    padding-right: 12px;
+
+    position: absolute;
+    left: 15px;
+}
+
+.input #sex-select, .input #date-select, .input #month-select{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    
+    position: absolute;
+}
+
+.input #sex-select {
+    left: 100px;
+}
+
+.input #date-select {
+    left: 200px;
+}
+
+.input #month-select {
+    left: 325px;
+}
+
+.input #year-box {
+    position:absolute;
+    left: 450px;
+}
+
+.header-input-type {
+    width: 100%;
+
+    color: black;
+    font-size: 20px;
+    position: relative;
+}
+
+.input-box {
+    width: 100%;
+    height: 45px;
+    display: inline;
+
+    position: relative;
+}
+
+.pass-header, .name-header, .email-header, .addr-header, .phone-num-header {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    display: inline;
+
+    position: absolute;
+    left: 15px;
+}
+
+#pass-box, #name-box, #email-box, #addr-box, #phone-num-box{
+    width: 254px;
+    height: 30px;
+    display: inline;
+}
+
+#pass-box {
+    position: absolute;
+    right: 500px;
+}
+
+#name-box {
+    position: absolute;
+    right: 500px;
+}
+
+#email-box {
+    position: absolute;
+    right: 500px;
+}
+
+#phone-num-box {
+    position: absolute;
+    right: 550px;
+}
+
+#addr-box {
+    position: absolute;
+    right: 500px;
+}
+
+#sex-box {
+    width: 150px;
+    height: 30px;
+    display: inline;
+
+    position: absolute;
+    right: 500px;
+}
+/* Store this code in 'style.css' file inside the 'static' folder*/
+
+.header{
+    padding: 5px 120px;
+    width: 150px;
+    height: 70px;
+    background-color: rgb(245, 245, 245);;
+}
+
+.border{
+    padding: 80px 50px;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #236B8E;
+    border-radius: 0px;
+    background-color: #9AC0CD;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    background-color: rgb(245, 245, 245);;
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.textbox{
+    padding: 10px 40px;
+    background-color: rgb(245, 245, 245);
+    color: black;
+    border-radius: 10px;
+}
+    
+::placeholder {
+    color: black;
+    opacity: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.word{
+    color: #FFFFFF;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.bottom{
+    color: #236B8E;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.small-text-box {
+    padding: 10px 40px;
+    background-color: rgb(245, 245, 245);
+    color: black;
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: rgb(245, 245, 245);
+}
