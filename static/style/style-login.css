@@ -5,7 +5,7 @@
 
 #container {
     width: 100%;
-    height: 957px;
+    height: 707px;
 
     background-image: url("../img/icon.png");
     background-color: aqua;
@@ -39,13 +39,16 @@
     background-size: 88px 91px;
 
     position: relative;
-    left: 1045px;
+    left: 835px;
     bottom: 10px;
 }
-#container>#register-box{
+#container>#login-box {
     position: absolute;
     top: 80px;
+    left: 15%;
 
+    width: 35%;
+    height: 375px;
     border: 1px solid black;
     border-radius: 0px;
     border-radius: 25px;
@@ -54,12 +57,14 @@
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-#container>#register-box {
-    width: 65%;
-    height: 675px;
+.a {
+    font-size: 15px;
+    color: purple;
+
+    position: absolute;
+    bottom: 15%;
+    right: 0;
 }
-
-
 
 .word ul {
     list-style-type: none;
@@ -80,50 +85,7 @@
     width: 75%;
 }
 
-.input #sexes-options, .input #dob-options {
-    color: black; 
-    font-size: 20px;
-    padding-right: 12px;
 
-    position: absolute;
-    left: 15px;
-}
-
-.input #sex-select, .input #date-select, .input #month-select{
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: rgb(245, 245, 245);
-    
-    position: absolute;
-}
-
-.input #sex-select {
-    left: 100px;
-}
-
-.input #date-select {
-    left: 200px;
-    font-size: 15px;
-}
-
-.input #month-select {
-    left: 325px; 
-    font-size: 15px;
-}
-
-.input #year-box {
-    width: 100px;
-    height: 30px;
-
-    position:absolute;
-    left: 52%;
-
-    background-color: rgb(245, 245, 245);
-    border-radius: 5px;
-
-    font-size: 15px;
-}
 
 .header-input-type {
     width: 100%;
@@ -141,7 +103,7 @@
     position: relative;
 }
 
-.pass-header, .name-header, .email-header, .addr-header, .phone-num-header {
+.pass-header, .email-header {
     width: 100px;
     height: 30px;
     line-height: 30px;
@@ -162,31 +124,7 @@
     right: 500px;
 }
 
-#name-box {
-    position: absolute;
-    right: 500px;
-}
-
 #email-box {
-    position: absolute;
-    right: 500px;
-}
-
-#phone-num-box {
-    position: absolute;
-    right: 550px;
-}
-
-#addr-box {
-    position: absolute;
-    right: 500px;
-}
-
-#sex-box {
-    width: 150px;
-    height: 30px;
-    display: inline;
-
     position: absolute;
     right: 500px;
 }
@@ -216,8 +154,8 @@
     bottom: 10px;
     left: 45%;
 
-    background-color: rgb(245, 245, 245);;
-    color: black;
+    background-color: orange;
+    color: white;
     text-align: center;
     font-style: oblique;
     font-weight: bold;
